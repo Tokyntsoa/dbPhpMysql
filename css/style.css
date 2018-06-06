@@ -1,0 +1,89 @@
+body{ 
+	font-size:1.1em;
+	font-family:"Times New Roman";
+}
+
+table{
+	background-color : silver;
+	font-size:1.1em;
+	font-family:"Times New Roman";
+}
+
+input{
+	font-size:1.1em;
+	font-family:"Times New Roman";
+}
+
+#id,#intitule,#prix{
+	width:140px;
+}
+
+tr{
+	height:30px;
+}
+td,th{
+	width:150px;
+}
+
+h1{ 
+	color : blue; 
+	font-family : Cambria;
+	padding-top : 5%;
+	text-align : center;
+}
+
+a{
+	text-decoration : none;
+	color : green;
+}
+
+#butA{
+	width:296px;
+	font-size:1.1em;
+	font-family:"Times New Roman";
+	font-weight:bold;
+}
+
+#butM{
+	width:296px;
+	font-size:1.1em;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	color:green;
+}
+
+#butA:hover{
+	color:blue;
+}
+
+#butU{
+	width:146px;
+	font-size:1.1em;
+	font-family:"Times New Roman";
+	font-weight:bold;
+}
+
+#butU:hover{
+	color:green;
+	font-weight:bold;
+}
+
+#valmodif{
+	width:146px;
+	color:red;
+	color:green;
+	font-weight:bold;
+}
+
+#suppr{
+	width:146px;
+	color:red;
+}
+
+#suppr:hover{
+	width:146px;
+	color:red;
+	font-weight:bold;
+}
+
+
