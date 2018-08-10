@@ -9,9 +9,9 @@
 	
 	echo " Host : ".$dbhost."<br/>";
 	echo " Port : ".$dbport."<br/>";
-	echo " User : ".$dbuser."->".data['database-user']."<br/>";
-	echo " Password : ".$dbpwd."->".data['database-password']."-".data['database-root-password']."<br/>";
-	echo " Database : ".$dbname."->".data['database-name']."<br/>";
+	echo " User : ".$dbuser."<br/>";
+	echo " Password : ".$dbpwd."<br/>";
+	echo " Database : ".$dbname."<br/>";
 	
 	echo "<br/><br/><br/>";
 
