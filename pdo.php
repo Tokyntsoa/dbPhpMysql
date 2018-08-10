@@ -5,8 +5,8 @@
 	$dbname = getenv("MYSQL_DATABASE");
 	$dbpwd = getenv("MYSQL_ROOT_PASSWORD");
 
-	//$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';port='.$dbport;
-	$bdd = new PDO('mysql:host=172.30.190.14:3306;dbname=mabase','mysql','mysql');
+	/*$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';port='.$dbport;
+	
 	echo " Host : ".$dbhost."<br/>";
 	echo " Port : ".$dbport."<br/>";
 	echo " User : ".$dbuser."<br/>";
@@ -15,8 +15,10 @@
 	
 	echo "<br/><br/><br/>";
 
+	*/
 	try{		
 		//$bdd = new PDO($dsn,$dbuser, $dbpwd);
+		$bdd = new PDO('mysql:host=172.30.190.14:3306;dbname=mabase','mysql','mysql');
 	}catch (Exception $ex){
 		die('Erreur sur la base : '.$ex->getMessage());
 	}
