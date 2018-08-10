@@ -13,6 +13,8 @@
 	echo " Password : ".$dbpwd;
 	echo " Database : ".$dbname;
 	
+	echo "<br/><br/><br/>";
+
 	try{		
 		$bdd = new PDO($dsn,$dbuser, $dbpwd);
 	}catch (Exception $ex){
