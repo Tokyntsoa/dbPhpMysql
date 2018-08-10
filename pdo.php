@@ -7,7 +7,11 @@
 
 	$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';port='.$dbport;
 	
-	echo " Les valeurs sont : ".$dbhost."-".$dbport."-".$dbuser."-".$dbname."-".$dbpwd;
+	echo " Host : ".$dbhost;
+	echo " Port : ".$dbport;
+	echo " User : ".$dbuser;
+	echo " Password : ".$dbpwd;
+	echo " Database : ".$dbname;
 	
 	try{		
 		$bdd = new PDO($dsn,$dbuser, $dbpwd);
